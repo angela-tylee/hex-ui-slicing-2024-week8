@@ -1,0 +1,60 @@
+.section-category {
+  .category-header {
+    padding-bottom: 40px;
+    h2 {
+      font-size: 48px;
+    }
+    .decoration-line {
+      // padding-left: 88px;
+    }
+  }
+  .category-body {
+    border-radius: 80px;
+    padding: 80px 10%;
+  }
+  .category-cards {
+    margin-block: -12px;
+  }
+  .category-card {
+    min-width: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-block: 12px;
+  }
+  .category-img {
+    padding: 10px;
+    border-radius: 16px;
+  }
+  .category-img-marketing {
+    background-color: #FF994F;
+  }
+  .category-img-photo {
+    background-color: #5E5E5E;
+  }
+  .category-img-self {
+    background-color: #FF9BAD;
+  }
+  .category-img-art {
+    background-color: #564FFD;
+  }
+  .category-img-data {
+    background-color: #54DFF2;
+  }
+  .category-img-finance {
+    background-color: #52E9BC;
+  }
+  .category-img-music {
+    background-color: #CF93FF;
+  }
+  .category-img-more {
+    background-color: $primary;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-category {
+    .category-header {
+      padding-left: 110px;
+    }
+  }
+}

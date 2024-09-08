@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import "../../node_modules/bootstrap";
+
+@import "./base/base.scss";
+
+@import './component/card.scss';
+@import './component/badge.scss';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './layout/category.scss';
+
+
+@import './pages/index.scss';
+@import './pages/courses.scss';
+
