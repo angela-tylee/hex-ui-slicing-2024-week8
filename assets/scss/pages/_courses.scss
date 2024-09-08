@@ -38,6 +38,7 @@ section {
       margin-left: 8px;
     }
     .nav-item {
+      margin-top: 8px;
       background-color: $white;
     }
     .nav-link {
@@ -100,27 +101,28 @@ section {
 }
 
 .section-result {
-  h3 {
+  .result-header {
     margin-bottom: 40px;
   }
   .result-cards {
-    margin: -12px;
+    // margin: -12px;
     .result-card {
-      height: inherit;
-      margin: 12px;
+      // height: inherit;
+      // margin: 12px;
     }
-  }
-  .pagination {
-    // width: 100%;
   }
 }
 
 @media (max-width: 992px) {
   .section-result {
     .result-card {
+      height: inherit;
+      border: 0;
+      box-shadow: none;
       .card-header {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
+        border-radius: 12px;
         padding-bottom: 0;
       }
     }
