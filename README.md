@@ -1,23 +1,19 @@
 # 六角學院切版直播班 2024 (Vite)
 
-## Week 6
+## Week 8
 
-(screenshot)
+<img width="1220" alt="image" src="https://github.com/user-attachments/assets/8de39d26-64f0-4b69-af62-76f90447bd90">
+
 
 ## What I learned
 
 - Bootstrap
-  - carousel
+  - Carousel
+  - Navbar (Responsive)
+  - Drowpdown (Customize dcropdown menu)
 
 
 ### Built with
-
-- Bootstrap
-- mobile first
-- swiper?
-
-
-
 
 - Vite
 - gh-page
