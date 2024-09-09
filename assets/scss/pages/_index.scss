@@ -10,25 +10,6 @@
   }
 }
 
-// radius
-// 12px
-// 16px
-// 20px
-// 80px
-
-// spacer
-// 16px
-// 20px
-// 24px
-// 30px
-// 40px
-// 48px
-// 80px
-// 100px
-// 180px
-// 120px
-// 160px
-
 .navbar-brand,
 .footer-brand {
   width: 200px;
@@ -57,7 +38,6 @@ section {
     padding-inline: 0;
   }
   .carousel-item {
-    // border-radius: 80px;
     overflow: hidden;
   }
   .container,
@@ -81,12 +61,6 @@ section {
       padding: 22px 32px;
       width: 30%;
       min-width: 563px;
-      // span.card-badge {
-      //   margin-right: 8px;
-      //   padding: 8px 12px;
-      //   background-color: #E5F4FF;
-      //   color: $primary;
-      // }
     }
     h2 {
       margin-top: 32px;
@@ -96,33 +70,12 @@ section {
       min-width: 872px;
     }
   }
-
-  .carousel-control-prev, .carousel-control-next {
-    // width: inherit;
-  }
-
-
-  // .carousel-control-prev,
-  // .carousel-control-next {
-  //   color: $primary;
-  //   background-color: $white;
-  // }
 }
-
-// @media (min-width: 1200px) {
-//   .section-hero {
-//     .container {
-//       display: none;
-//       padding-inline: 132px;
-//     }
-//   }  
-// }
 
 @media (min-width: 992px) {
   .section-hero {
     height: 800px;
     .container {
-      // max-width: 1968px;
       padding-inline: 24px;
     }
     .carousel-item {
@@ -134,7 +87,6 @@ section {
 @media (min-width: 1200px) {
   .section-hero {
     .container {
-      // max-width: 2184px;
       padding-inline: 132px;
     }
   }
@@ -220,9 +172,6 @@ section {
     .card-header {
       padding-bottom: 200px
     }
-    // .hot-cards {
-    //   margin: -12px;
-    // }
     .hot-card {
       margin: 12px;
     }
@@ -285,3 +234,23 @@ section {
     }
   }
 }
+
+
+// radius
+// 12px
+// 16px
+// 20px
+// 80px
+
+// spacer
+// 16px
+// 20px
+// 24px
+// 30px
+// 40px
+// 48px
+// 80px
+// 100px
+// 180px
+// 120px
+// 160px
